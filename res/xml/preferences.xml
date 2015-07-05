@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	 <CheckBoxPreference 
+	 	android:title="Haptic Feedback" 
+	 	android:key="hapticPREF" 
+	 	android:defaultValue="true" 
+	 	android:summary="Buttons will give haptic feedback when pushed"/>
+	 <CheckBoxPreference 
+	 	android:title="Auto-connect last pod used" 
+	 	android:key="autoconnect" 
+	 	android:defaultValue="true" 
+	 	android:summary="Automatically connect to last used pod"/>
+	 <CheckBoxPreference 
+	 	android:title="Bluetooth Insecure Mode" 
+	 	android:key="htcInsecure" 
+	 	android:defaultValue="true" 
+	 	android:summary="Toggle insecure bluetooth connection mode"/>
+	 <CheckBoxPreference 
+	 	android:title="Disconnect after inactivity" 
+	 	android:key="disconnectInactivity" 
+	 	android:defaultValue="true" 
+	 	android:summary="Disconnect after a period of inactivity to prevent bluetooth connection issues on some phones."/>		 	 
+</PreferenceScreen>
